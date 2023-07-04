@@ -1,5 +1,5 @@
 {
-  "name": "todo-localstorage",
+  "name": "todos-localstorage",
   "version": "1.0.0",
   "description": "",
   "main": "todo-app.js",
