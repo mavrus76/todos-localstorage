@@ -1,15 +1,19 @@
 {
   "name": "todos-localstorage",
   "version": "1.0.0",
-  "description": "",
+  "description": "Your todos",
   "main": "todo-app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tauri": "tauri",
+    "init": "npm run tauri init",
+    "dev": "npm run tauri dev",
+    "build": "npm run tauri build"
   },
   "keywords": [],
-  "author": "",
+  "author": "Maxim Vysotskiy",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
+    "@tauri-apps/api": "^1.4.0",
     "@tauri-apps/cli": "^1.4.0"
   }
 }
